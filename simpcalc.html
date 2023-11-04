@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="simpcalc.css">
+</head>
+
+<body>
+    <div class="divy">
+        <main class="main">
+            <section class="section">
+                <p id="display"></p>
+                <p id="display2"></p>
+            </section>
+            <section class="section2">
+                <div class="row1">
+                    <input type="button" value="cos" class="butons" id="cos" onclick="cos()">
+                    <input type="button" value="sin" class="butons" id="sin" onclick="sin()">
+                    <input type="button" value="tan" class="butons" id="tan" onclick="tan()">
+                    <input type="button" value="log" class="butons" id="log" onclick="log()">
+                    <input type="button" value="&#8730;" class="butons" id="sqrt" onclick="sq_rt()">
+
+                </div>
+
+                <div class="row1">
+                    <input type="button" value="7" class="butons" id="seven" onclick="display('7')">
+                    <input type="button" value="8" class="butons" id="eigth" onclick="display('8')">
+                    <input type="button" value="9" class="butons" id="nine" onclick="display('9')">
+                    <input type="button" value="AC" class="butons" id="AC" onclick="adva()">
+                    <input type="button" value="+/-" class="butons" id="pminus" onclick="display('-')">
+                </div>
+
+                <div class="row1">
+
+                    <input type="button" value="4" class="butons" id="four" onclick="display('4')">
+                    <input type="button" value="5" class="butons" id="five" onclick="display('5')">
+                    <input type="button" value="6" class="butons" id="six" onclick="display('6')">
+                    <input type="button" value="+" class="butons" id="plus" onclick="display('+')">
+                    <input type="button" value="/" class="butons" id="divide" onclick="display('/')">
+                </div>
+
+                <div class="row1">
+                    <input type="button" value="1" class="butons" id="one" onclick="display('1')">
+                    <input type="button" value="2" class="butons" id="two" onclick="display('2')">
+                    <input type="button" value="3" class="butons" id="three" onclick="display('3')">
+                    <input type="button" value="-" class="butons" id="minus" onclick="display('-')">
+                    <input type="button" value="*" class="butons" id="multi" onclick="display('*')">
+
+                </div>
+
+                <div class="row1">
+                    <input type="button" value="." class="butons" id="dot" onclick="display('.')">
+                    <input type="button" value="0" class="butons" id="del" onclick="display('0')">
+                    <input type="button" value="%" class="butons" id="modul" onclick="display('%')">
+                    <input type="button" value="=" class="butons" id="eval" onclick="evalua()">
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <script src="simpcalc.js"></script>
+</body>
+
+</html>
